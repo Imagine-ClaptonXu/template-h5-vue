@@ -1,0 +1,26 @@
+/* 全局样式 */
+:root {
+    --global-font-size: 16px;
+    /* 默认字体大小 */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+body {
+    font-size: var(--global-font-size);
+    width: 100vw;
+    height: -webkit-fill-available;
+    // overflow: hidden;
+    margin: 0 auto;
+}
+
+#app {
+    margin: 0 auto;
+    /* padding: 2rem; */
+    font-weight: normal;
+}
